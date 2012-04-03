@@ -12,11 +12,14 @@
  */
 
  /*
-  * This Script imports parts of Jigoshop Order values to WooCommerce. The script is not 
-  * complete and was just fitted to our needs. If you want to extend you're welcome to fork
+  * This Script imports parts of Jigoshop order values to WooCommerce. The script is not 
+  * complete and was just fitted to our needs. If you want to extend, you're welcome to fork
   * on Github and do a pull request on this gist.
   * 
+  * Please be sure you have switched off Jigoshop and switched on WooCommerce.
+  * 
   * We take no warranty for this script! 
+  * 
   */
 
 include 'classes/jigoshop_order.class.php';
