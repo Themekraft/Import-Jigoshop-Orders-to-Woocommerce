@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Import Jigoshop Orders to Woocommerce
  * Plugin URI:  https://themekraft.com
- * Description: Themekraft Jigoshop orders import to woocommerce
+ * Description: Themekraft Jigoshop orders import to woocommerce partitial
  * Author:      themekraft.com
  * Version:     1.0
  * Author URI:  http://themekraft.com/
@@ -10,6 +10,14 @@
  * Domain Path: /languages/
  * Network:     true
  */
+
+ /*
+  * This Script imports parts of Jigoshop Order values to WooCommerce. The script is not 
+  * complete and was just fitted to our needs. If you want to extend you're welcome to fork
+  * on Github and do a pull request on this gist.
+  * 
+  * We take no warranty for this script! 
+  */
 
 function tk_woo_import_jigo_orders(){
 	global $wpdb;
