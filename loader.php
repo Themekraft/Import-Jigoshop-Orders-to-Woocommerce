@@ -19,6 +19,11 @@
   * We take no warranty for this script! 
   */
 
+include 'classes/jigoshop_order.class.php';
+include 'classes/jigoshop_orders.class.php';
+include 'classes/jigoshop_tax.class.php';
+include 'classes/jigoshop_countries.class.php';
+  
 function tk_woo_import_jigo_orders(){
 	global $wpdb;
 	
